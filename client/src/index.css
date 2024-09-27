@@ -1,0 +1,24 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+input {
+  color: rgb(139, 139, 139); /* Mantiene el texto en blanco */
+}
+
+input:-webkit-autofill {
+  background-color: transparent !important;
+  -webkit-box-shadow: 0 0 0px 1000px #ffffff inset !important; /* Asegura que el fondo se mantenga igual al fondo del contenedor */
+  color: rgb(
+    139,
+    139,
+    139
+  ) !important; /* Asegura que el texto se mantenga blanco */
+}
+
+input:-webkit-autofill::first-line {
+  font-family: inherit;
+  font-size: inherit;
+  color: rgb(139, 139, 139) !important;
+}
+
