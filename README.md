@@ -67,8 +67,8 @@ npm run dev
 
 Para acceder a la ruta del administrador en este proyecto, utiliza las siguientes credenciales:
 
-Email: admin_snciudad@gmail.com
-Contraseña: SNciudad14
+Email: admin@example.com
+Contraseña: administrador
 
 ## Endpoints
 
